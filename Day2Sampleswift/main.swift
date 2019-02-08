@@ -19,7 +19,8 @@ if(true<false){
 
 */
 
-
+var x:Int
+x=5;
 
 
 
