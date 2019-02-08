@@ -19,8 +19,26 @@ if(true<false){
 
 */
 
-var x:Int
-x=5;
+var s:String="space"
+print(s)
+print()
+var str=String()
+str="hello"
+print(str)
+print()
+var p:String
+p="call me"
+print(p,str,s)
+print()
+print(str.hasPrefix("hello"))
+
+print(s.hasPrefix("hello"))
+print(p.uppercased())
+print(s.description)
+print(s.count)
+
+
+
 
 
 
