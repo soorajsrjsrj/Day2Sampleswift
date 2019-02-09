@@ -9,6 +9,7 @@
 import Foundation
 
 print("Hello, World!")
+// boolean comparison
 
 /*
 var a: Bool
@@ -18,7 +19,7 @@ if(true<false){
 
 
 */
-
+// String methods available and handling
 var s:String="space"
 print(s)
 print()
@@ -37,11 +38,36 @@ print(p.uppercased())
 print(s.description)
 print(s.count)
 
+// for loop handling with Strings
+
+for v in str{
+print(v)
+}
+print()
+var x = 5...10
+for i in x{
+print(i)
+}
 
 
+print()
 
 
+//closed range
+var y=5...10
+for i in y{
+print(i)
+}
+print(y)
 
+
+//partial range form
+var z = ...50
+if(z.contains(-1000)){
+    print("true")}
+else{
+print("false")
+}
 
 
 
