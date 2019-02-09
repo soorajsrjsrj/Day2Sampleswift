@@ -211,10 +211,10 @@ print(v)
 print("-----------------------------------")
 
 //delete all elements /clear
-
-d = [:]                      //
 print(d)
-d.removeAll()
+d = [:]                      //empty dictionary
+print(d.count)
+d.removeAll()               //alternative method to empty dictionary
 
 
 
